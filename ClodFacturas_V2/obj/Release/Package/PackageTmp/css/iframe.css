@@ -1,0 +1,31 @@
+﻿
+
+.demo-iframe {
+	background-color: #fff;
+	padding: 10px 25px;
+}
+.demo-wrapper {
+	width: 100%;
+	margin: 0 auto;
+    
+}
+.demo-wrapper iframe {
+	
+	width: 100%;
+	background-color: #fff;
+	height: 550px;
+    border:none
+}
+.demo-wrapper iframe::-webkit-scrollbar {
+    width: 12px;
+}
+.demo-wrapper iframe::-webkit-scrollbar-track {
+    background-color: #eaeaea;
+  
+}
+.demo-wrapper iframe::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+.demo-wrapper iframe::-webkit-scrollbar-thumb:hover {
+	background-color: #aaa;
+}

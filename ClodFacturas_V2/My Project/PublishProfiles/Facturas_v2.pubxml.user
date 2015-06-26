@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AceptarOC.aspx">
+      <publishTime>05/27/2015 11:10:19</publishTime>
+    </File>
+    <File Include="Administracion.aspx">
+      <publishTime>06/04/2015 09:29:44</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>05/21/2015 12:28:45</publishTime>
+    </File>
+    <File Include="bin/ClodFacturas_V2.dll">
+      <publishTime>06/04/2015 10:12:54</publishTime>
+    </File>
+    <File Include="bin/ClodFacturas_V2.xml">
+      <publishTime>06/04/2015 10:12:54</publishTime>
+    </File>
+    <File Include="bin/EPPlus.dll">
+      <publishTime>05/25/2015 11:27:02</publishTime>
+    </File>
+    <File Include="bin/Ionic.Zip.dll">
+      <publishTime>05/25/2015 13:08:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>03/08/2012 09:20:10</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>05/26/2015 10:04:13</publishTime>
+    </File>
+    <File Include="bin/OpenPop.dll">
+      <publishTime>05/26/2015 10:01:13</publishTime>
+    </File>
+    <File Include="bin/SharpCompress.dll">
+      <publishTime>05/26/2015 10:01:13</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>05/26/2015 10:04:14</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>05/26/2015 10:04:15</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>05/26/2015 10:04:15</publishTime>
+    </File>
+    <File Include="Correos.aspx">
+      <publishTime>06/03/2015 12:55:01</publishTime>
+    </File>
+    <File Include="css/component.css">
+      <publishTime>05/26/2015 11:58:46</publishTime>
+    </File>
+    <File Include="css/default.css">
+      <publishTime>05/25/2015 10:16:45</publishTime>
+    </File>
+    <File Include="css/Estilos.css">
+      <publishTime>05/25/2015 11:16:49</publishTime>
+    </File>
+    <File Include="css/EstilosAdministracion.css">
+      <publishTime>05/27/2015 13:07:59</publishTime>
+    </File>
+    <File Include="css/EstilosCorreos.css">
+      <publishTime>05/26/2015 12:05:11</publishTime>
+    </File>
+    <File Include="css/EstilosCorreosV2.css">
+      <publishTime>05/25/2015 11:21:33</publishTime>
+    </File>
+    <File Include="css/EstilosCuentas.css">
+      <publishTime>05/26/2015 13:07:04</publishTime>
+    </File>
+    <File Include="css/EstilosExaminar.css">
+      <publishTime>05/26/2015 12:09:52</publishTime>
+    </File>
+    <File Include="css/EstilosFacturas.css">
+      <publishTime>05/26/2015 10:32:12</publishTime>
+    </File>
+    <File Include="css/estilosFirmas.css">
+      <publishTime>05/26/2015 12:34:32</publishTime>
+    </File>
+    <File Include="css/EstilosIndex.css">
+      <publishTime>06/03/2015 09:28:24</publishTime>
+    </File>
+    <File Include="css/estilosOC.css">
+      <publishTime>05/26/2015 11:47:51</publishTime>
+    </File>
+    <File Include="css/iframe.css">
+      <publishTime>05/25/2015 11:43:14</publishTime>
+    </File>
+    <File Include="css/Mensajes.css">
+      <publishTime>05/26/2015 09:37:09</publishTime>
+    </File>
+    <File Include="Cuentas.aspx">
+      <publishTime>06/03/2015 13:38:13</publishTime>
+    </File>
+    <File Include="dll/EPPlus.dll">
+      <publishTime>05/25/2015 11:27:02</publishTime>
+    </File>
+    <File Include="dll/Ionic.Zip.dll">
+      <publishTime>05/25/2015 13:08:20</publishTime>
+    </File>
+    <File Include="dll/OpenPop.dll">
+      <publishTime>05/26/2015 10:01:13</publishTime>
+    </File>
+    <File Include="dll/SharpCompress.dll">
+      <publishTime>05/26/2015 10:01:13</publishTime>
+    </File>
+    <File Include="ds_OC.xsc">
+      <publishTime>05/27/2015 11:32:14</publishTime>
+    </File>
+    <File Include="ds_OC.xss">
+      <publishTime>05/27/2015 11:32:14</publishTime>
+    </File>
+    <File Include="Examinar.aspx">
+      <publishTime>05/26/2015 12:08:16</publishTime>
+    </File>
+    <File Include="Facturas.aspx">
+      <publishTime>06/04/2015 09:46:34</publishTime>
+    </File>
+    <File Include="Firmas.aspx">
+      <publishTime>06/03/2015 12:48:15</publishTime>
+    </File>
+    <File Include="fonts/weblysleekuisl.ttf">
+      <publishTime>05/22/2015 09:30:28</publishTime>
+    </File>
+    <File Include="images/animated-overlay.gif">
+      <publishTime>05/22/2015 09:41:33</publishTime>
+    </File>
+    <File Include="images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>05/22/2015 09:41:33</publishTime>
+    </File>
+    <File Include="images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>05/22/2015 09:41:33</publishTime>
+    </File>
+    <File Include="images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>05/22/2015 09:41:33</publishTime>
+    </File>
+    <File Include="images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>05/22/2015 09:41:33</publishTime>
+    </File>
+    <File Include="images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>05/22/2015 09:41:33</publishTime>
+    </File>
+    <File Include="images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>05/22/2015 09:41:33</publishTime>
+    </File>
+    <File Include="images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>05/22/2015 09:41:33</publishTime>
+    </File>
+    <File Include="images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>05/22/2015 09:41:33</publishTime>
+    </File>
+    <File Include="images/ui-icons_222222_256x240.png">
+      <publishTime>05/22/2015 09:41:33</publishTime>
+    </File>
+    <File Include="images/ui-icons_2e83ff_256x240.png">
+      <publishTime>05/22/2015 09:41:33</publishTime>
+    </File>
+    <File Include="images/ui-icons_454545_256x240.png">
+      <publishTime>05/22/2015 09:41:33</publishTime>
+    </File>
+    <File Include="images/ui-icons_888888_256x240.png">
+      <publishTime>05/22/2015 09:41:33</publishTime>
+    </File>
+    <File Include="images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>05/22/2015 09:41:33</publishTime>
+    </File>
+    <File Include="img/2.jpg">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/Actualizar.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/admin.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/admin2.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/admin3.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/admin4.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/android-icon-48x48.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/bajar.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/CloudFacturas.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/delete.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/dow.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/edit.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/eliminar.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/email.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/exit.PNG">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/factura2.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/factura3.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/favicon.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/file.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/file2.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/firma.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/firma2.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/Guardar.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/limpiar.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/loader2.gif">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/logo.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/mail.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/mailB.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/manual.png">
+      <publishTime>05/27/2015 12:46:41</publishTime>
+    </File>
+    <File Include="img/modificar.png">
+      <publishTime>05/22/2015 09:30:29</publishTime>
+    </File>
+    <File Include="img/oc.png">
+      <publishTime>05/22/2015 09:30:30</publishTime>
+    </File>
+    <File Include="img/off.png">
+      <publishTime>05/22/2015 09:30:30</publishTime>
+    </File>
+    <File Include="img/open.png">
+      <publishTime>05/22/2015 09:30:30</publishTime>
+    </File>
+    <File Include="img/pagCan.png">
+      <publishTime>05/22/2015 09:30:30</publishTime>
+    </File>
+    <File Include="img/pdf.png">
+      <publishTime>05/22/2015 09:30:30</publishTime>
+    </File>
+    <File Include="img/reporte.png">
+      <publishTime>05/22/2015 09:30:30</publishTime>
+    </File>
+    <File Include="img/row.png">
+      <publishTime>05/22/2015 09:30:30</publishTime>
+    </File>
+    <File Include="img/row2.png">
+      <publishTime>05/22/2015 09:30:30</publishTime>
+    </File>
+    <File Include="img/save.png">
+      <publishTime>05/22/2015 09:30:30</publishTime>
+    </File>
+    <File Include="img/save2.png">
+      <publishTime>05/22/2015 09:30:30</publishTime>
+    </File>
+    <File Include="img/savezip.png">
+      <publishTime>05/22/2015 09:30:30</publishTime>
+    </File>
+    <File Include="img/spinner.gif">
+      <publishTime>05/22/2015 09:30:30</publishTime>
+    </File>
+    <File Include="img/user-login.png">
+      <publishTime>05/22/2015 09:30:30</publishTime>
+    </File>
+    <File Include="img/user.png">
+      <publishTime>05/22/2015 09:30:30</publishTime>
+    </File>
+    <File Include="img/x.png">
+      <publishTime>05/22/2015 09:38:31</publishTime>
+    </File>
+    <File Include="img/xml.png">
+      <publishTime>05/22/2015 09:30:30</publishTime>
+    </File>
+    <File Include="img/xml2.png">
+      <publishTime>05/26/2015 10:35:57</publishTime>
+    </File>
+    <File Include="img/xml_favi.png">
+      <publishTime>05/22/2015 09:30:30</publishTime>
+    </File>
+    <File Include="img/zip.png">
+      <publishTime>05/22/2015 09:30:30</publishTime>
+    </File>
+    <File Include="Index.aspx">
+      <publishTime>06/03/2015 11:34:53</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>05/25/2015 09:36:26</publishTime>
+    </File>
+    <File Include="js/classie.js">
+      <publishTime>05/25/2015 09:23:47</publishTime>
+    </File>
+    <File Include="js/css-filters-polyfill.js">
+      <publishTime>05/25/2015 09:23:47</publishTime>
+    </File>
+    <File Include="js/cssParser.js">
+      <publishTime>05/25/2015 09:23:47</publishTime>
+    </File>
+    <File Include="js/download.js">
+      <publishTime>05/26/2015 11:42:12</publishTime>
+    </File>
+    <File Include="js/jquery.Mensajes_minimized.js">
+      <publishTime>05/26/2015 09:37:26</publishTime>
+    </File>
+    <File Include="js/Mensajes.min.js">
+      <publishTime>05/26/2015 09:37:26</publishTime>
+    </File>
+    <File Include="js/modalEffects.js">
+      <publishTime>05/25/2015 09:23:47</publishTime>
+    </File>
+    <File Include="js/modernizr.custom.js">
+      <publishTime>05/25/2015 09:23:47</publishTime>
+    </File>
+    <File Include="Logeo.aspx">
+      <publishTime>05/26/2015 09:56:47</publishTime>
+    </File>
+    <File Include="Manual.pdf">
+      <publishTime>06/03/2015 10:49:42</publishTime>
+    </File>
+    <File Include="Manual2.pdf">
+      <publishTime>06/03/2015 11:23:45</publishTime>
+    </File>
+    <File Include="Ordene de Compra.pdf">
+      <publishTime>06/04/2015 10:11:26</publishTime>
+    </File>
+    <File Include="OrdenesdeCompra.aspx">
+      <publishTime>06/03/2015 12:36:56</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>05/26/2015 10:04:16</publishTime>
+    </File>
+    <File Include="PagosCancelaciones.aspx">
+      <publishTime>06/04/2015 09:58:59</publishTime>
+    </File>
+    <File Include="Reporte.xlsx">
+      <publishTime>06/03/2015 10:27:57</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/04/2015 10:12:56</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

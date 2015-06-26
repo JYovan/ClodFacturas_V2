@@ -1,0 +1,4520 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ClodFacturas_V2
+</name>
+</assembly>
+<members>
+<member name="P:ClodFacturas_V2.My.MyWebExtension.Computer">
+	<summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member><member name="P:ClodFacturas_V2.My.MyWebExtension.User">
+	<summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member><member name="P:ClodFacturas_V2.My.MyWebExtension.Request">
+	<summary>
+ Devuelve un objeto Request.
+ </summary>
+</member><member name="P:ClodFacturas_V2.My.MyWebExtension.Response">
+	<summary>
+ Devuelve un objeto Response.
+ </summary>
+</member><member name="P:ClodFacturas_V2.My.MyWebExtension.Log">
+	<summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member><member name="T:ClodFacturas_V2.My.MyWebExtension">
+	<summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Head1">
+	<summary>
+Control Head1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.ToolkitScriptManager1">
+	<summary>
+Control ToolkitScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.principal">
+	<summary>
+Control principal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.UpdateProgress1">
+	<summary>
+Control UpdateProgress1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.panel_filtros">
+	<summary>
+Control panel_filtros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Label7">
+	<summary>
+Control Label7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.txt_CorreProvvedor">
+	<summary>
+Control txt_CorreProvvedor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.txt_correoProveedor">
+	<summary>
+Control txt_correoProveedor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.txt_CorreMotivo">
+	<summary>
+Control txt_CorreMotivo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.label10">
+	<summary>
+Control label10.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.txt_CorreFechaDe">
+	<summary>
+Control txt_CorreFechaDe.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.txtFechaDel_CalendarExtender">
+	<summary>
+Control txtFechaDel_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.RegularExpressionValidator4">
+	<summary>
+Control RegularExpressionValidator4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.label12">
+	<summary>
+Control label12.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.txt_CorreFechaAl">
+	<summary>
+Control txt_CorreFechaAl.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.CalendarExtender1">
+	<summary>
+Control CalendarExtender1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.panelfil">
+	<summary>
+Control panelfil.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Radio_por_proveedor">
+	<summary>
+Control Radio_por_proveedor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Radio_por_motivo">
+	<summary>
+Control Radio_por_motivo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Radio_por_fecha">
+	<summary>
+Control Radio_por_fecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Radio_mostrar_10">
+	<summary>
+Control Radio_mostrar_10.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Radio_mostrar_50">
+	<summary>
+Control Radio_mostrar_50.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Radio_mostrar_500">
+	<summary>
+Control Radio_mostrar_500.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Radio_mostrar_todos">
+	<summary>
+Control Radio_mostrar_todos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Radio_orden_acs">
+	<summary>
+Control Radio_orden_acs.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Radio_orden_desc">
+	<summary>
+Control Radio_orden_desc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Chec_horas">
+	<summary>
+Control Chec_horas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.che_Stodos">
+	<summary>
+Control che_Stodos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.aaa">
+	<summary>
+Control aaa.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.txt_total">
+	<summary>
+Control txt_total.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.btn_crearreporte">
+	<summary>
+Control btn_crearreporte.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.btn_eliminarFacturas">
+	<summary>
+Control btn_eliminarFacturas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Grid_CorreosRecibidos">
+	<summary>
+Control Grid_CorreosRecibidos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Grid_CorreosRecibidos2">
+	<summary>
+Control Grid_CorreosRecibidos2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.MPE">
+	<summary>
+Control MPE.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.panel_confir">
+	<summary>
+Control panel_confir.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Label19">
+	<summary>
+Control Label19.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.UpdatePanel5">
+	<summary>
+Control UpdatePanel5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.panel5">
+	<summary>
+Control panel5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Grid_Archivos">
+	<summary>
+Control Grid_Archivos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Grid_Archivos2">
+	<summary>
+Control Grid_Archivos2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.btn_cierrate">
+	<summary>
+Control btn_cierrate.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Button4">
+	<summary>
+Control Button4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.btn_buscar">
+	<summary>
+Control btn_buscar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.MPE_confir">
+	<summary>
+Control MPE_confir.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.panel_confir2">
+	<summary>
+Control panel_confir2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Label3">
+	<summary>
+Control Label3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.panel2">
+	<summary>
+Control panel2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.btn_eliminarFacturas2">
+	<summary>
+Control btn_eliminarFacturas2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.btn_cerrarConfir">
+	<summary>
+Control btn_cerrarConfir.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Correos.Button1">
+	<summary>
+Control Button1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.Head1">
+	<summary>
+Control Head1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.ToolkitScriptManager1">
+	<summary>
+Control ToolkitScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.principal">
+	<summary>
+Control principal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.UpdateProgress1">
+	<summary>
+Control UpdateProgress1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.panel_filtros">
+	<summary>
+Control panel_filtros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.btn_buscar">
+	<summary>
+Control btn_buscar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.txt_fecha_soli_del">
+	<summary>
+Control txt_fecha_soli_del.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.externder">
+	<summary>
+Control externder.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.RegularExpressionValidator4">
+	<summary>
+Control RegularExpressionValidator4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.txt_fecha_entrega_del">
+	<summary>
+Control txt_fecha_entrega_del.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.CalendarExtender1">
+	<summary>
+Control CalendarExtender1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.RegularExpressionValidator1">
+	<summary>
+Control RegularExpressionValidator1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.txt_fecha_soli_al">
+	<summary>
+Control txt_fecha_soli_al.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.CalendarExtender2">
+	<summary>
+Control CalendarExtender2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.RegularExpressionValidator2">
+	<summary>
+Control RegularExpressionValidator2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.txt_fecha_entrega_al">
+	<summary>
+Control txt_fecha_entrega_al.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.CalendarExtender3">
+	<summary>
+Control CalendarExtender3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.RegularExpressionValidator3">
+	<summary>
+Control RegularExpressionValidator3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.txt_proveedor">
+	<summary>
+Control txt_proveedor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.txt_proveedorRFC">
+	<summary>
+Control txt_proveedorRFC.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.panelfil">
+	<summary>
+Control panelfil.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.Label4">
+	<summary>
+Control Label4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.Radio_por_fecha">
+	<summary>
+Control Radio_por_fecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.Radio_por_proveedor">
+	<summary>
+Control Radio_por_proveedor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.Radio_por_folio">
+	<summary>
+Control Radio_por_folio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.Label5">
+	<summary>
+Control Label5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.Radio_top_10">
+	<summary>
+Control Radio_top_10.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.Radio_top_20">
+	<summary>
+Control Radio_top_20.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.Radio_top_50">
+	<summary>
+Control Radio_top_50.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.Radio_top_todos">
+	<summary>
+Control Radio_top_todos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.Label6">
+	<summary>
+Control Label6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.Radio_desc">
+	<summary>
+Control Radio_desc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.Radio_asc">
+	<summary>
+Control Radio_asc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.Grid_OC">
+	<summary>
+Control Grid_OC.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.OrdenesdeCompra.Grid_OC_2">
+	<summary>
+Control Grid_OC_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.Head1">
+	<summary>
+Control Head1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.ToolkitScriptManager1">
+	<summary>
+Control ToolkitScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.Grid_usuarios">
+	<summary>
+Control Grid_usuarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.Grid_Usuarios2">
+	<summary>
+Control Grid_Usuarios2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.panelfil">
+	<summary>
+Control panelfil.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.Check_correos">
+	<summary>
+Control Check_correos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.Check_facturas">
+	<summary>
+Control Check_facturas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.Check_cuentas">
+	<summary>
+Control Check_cuentas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.Check_subirF">
+	<summary>
+Control Check_subirF.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.Check_Actilizar">
+	<summary>
+Control Check_Actilizar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.Check_administracion">
+	<summary>
+Control Check_administracion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.Check_PagosCancelaciones">
+	<summary>
+Control Check_PagosCancelaciones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.Check_Firmas">
+	<summary>
+Control Check_Firmas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.Check_OC">
+	<summary>
+Control Check_OC.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.panel1">
+	<summary>
+Control panel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.Check_alta">
+	<summary>
+Control Check_alta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.Check_baja">
+	<summary>
+Control Check_baja.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.Check_modificar">
+	<summary>
+Control Check_modificar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.panel2">
+	<summary>
+Control panel2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.Radio_activo">
+	<summary>
+Control Radio_activo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.Radio_inactivo">
+	<summary>
+Control Radio_inactivo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.btn_cuenta">
+	<summary>
+Control btn_cuenta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.MPE_confir">
+	<summary>
+Control MPE_confir.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.panel_confir">
+	<summary>
+Control panel_confir.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.Label19">
+	<summary>
+Control Label19.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.UpdatePanel5">
+	<summary>
+Control UpdatePanel5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.panel5">
+	<summary>
+Control panel5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.btn_eliminarFacturas2">
+	<summary>
+Control btn_eliminarFacturas2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.btn_cerrarConfir">
+	<summary>
+Control btn_cerrarConfir.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Administracion.Button4">
+	<summary>
+Control Button4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="M:ClodFacturas_V2.ToolsT.DbToolsT.NonQueryWithTransaction(System.String)">
+	<summary>
+ Ejecuta la consulta que se manda como parámetro dentro de la trasacción actual. Lanza una excepción cuando ocurre un error.
+ </summary>
+	<param name="query">La consulta</param>
+	<remarks></remarks>
+</member><member name="M:ClodFacturas_V2.ToolsT.DbToolsT.GetDataSet(System.String)">
+	<summary>
+ Obtiene el conjunto de resultados que devuelve la consulta especificada.
+ </summary>
+	<param name="sqlQuery">La consulta</param>
+	<returns>Un <see cref="T:System.Data.DataSet">dataset</see> con los resultados.</returns>
+	<remarks></remarks>
+</member><member name="M:ClodFacturas_V2.ToolsT.DbToolsT.GetDataSetWithTransaction(System.String)">
+	<summary>
+ Obtiene el conjunto de resultados que devuelve la consulta especificada, dentro de una transacción. 
+ </summary>
+	<param name="sqlQuery">La consulta</param>
+	<returns>Un <see cref="T:System.Data.DataSet">dataset</see> con los resultados.</returns>
+	<remarks></remarks>
+</member><member name="M:ClodFacturas_V2.ToolsT.DbToolsT.ScopeIdentityWithTransaction">
+	<summary>
+ Obtiene el valor de la última columna de identidad insertada en la transacción actual.
+ </summary>
+	<returns>El valor de la identidad</returns>
+	<remarks></remarks>
+</member><member name="M:ClodFacturas_V2.ToolsT.DbToolsT.ExecuteNonQuery(System.String)">
+	<summary>
+ Ejecuta la consulta que se manda como parámetro. Lanza una excepción cuando ocurre un error.
+ </summary>
+	<param name="sqlquery">La consulta</param>
+	<remarks></remarks>
+</member><member name="F:ClodFacturas_V2.Examinar.Head1">
+	<summary>
+Control Head1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Examinar.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Examinar.ToolkitScriptManager1">
+	<summary>
+Control ToolkitScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Examinar.panel_xml">
+	<summary>
+Control panel_xml.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Examinar.FileUpload1">
+	<summary>
+Control FileUpload1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Examinar.UploadButton">
+	<summary>
+Control UploadButton.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Examinar.panel_pdf">
+	<summary>
+Control panel_pdf.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Examinar.FileUpload2">
+	<summary>
+Control FileUpload2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Examinar.UploadButtonpdf">
+	<summary>
+Control UploadButtonpdf.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Examinar.UploadStatusLabel">
+	<summary>
+Control UploadStatusLabel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="T:ClodFacturas_V2.ds_OC.OrdenesDeCambioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ClodFacturas_V2.ds_OC.OrdenesDeCambioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ClodFacturas_V2.ds_OC.OrdenesDeCambioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ClodFacturas_V2.ds_OC">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ClodFacturas_V2.ds_OCTableAdapters.OrdenesDeCambioTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ClodFacturas_V2.ds_OCTableAdapters.TableAdapterManager.UpdateUpdatedRows(ClodFacturas_V2.ds_OC,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ClodFacturas_V2.ds_OCTableAdapters.TableAdapterManager.UpdateInsertedRows(ClodFacturas_V2.ds_OC,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ClodFacturas_V2.ds_OCTableAdapters.TableAdapterManager.UpdateDeletedRows(ClodFacturas_V2.ds_OC,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ClodFacturas_V2.ds_OCTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ClodFacturas_V2.ds_OCTableAdapters.TableAdapterManager.UpdateAll(ClodFacturas_V2.ds_OC)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ClodFacturas_V2.ds_OCTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ClodFacturas_V2.ds_OCTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ClodFacturas_V2.ds_OCTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="F:ClodFacturas_V2.Index.Head1">
+	<summary>
+Control Head1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Index.Image1">
+	<summary>
+Control Image1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Index.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Index.ToolkitScriptManager1">
+	<summary>
+Control ToolkitScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Index.btn_actualizar">
+	<summary>
+Control btn_actualizar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Index.ImageButton1">
+	<summary>
+Control ImageButton1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Index.MPE_confir">
+	<summary>
+Control MPE_confir.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Index.panel_confir">
+	<summary>
+Control panel_confir.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Index.Label19">
+	<summary>
+Control Label19.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Index.UpdatePanel5">
+	<summary>
+Control UpdatePanel5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Index.panel5">
+	<summary>
+Control panel5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Index.lb_cuentas">
+	<summary>
+Control lb_cuentas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Index.lb_correos_leidos">
+	<summary>
+Control lb_correos_leidos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Index.lb_correos_guardados">
+	<summary>
+Control lb_correos_guardados.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Index.lb_archivos_comp">
+	<summary>
+Control lb_archivos_comp.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Index.lb_facturas_gua">
+	<summary>
+Control lb_facturas_gua.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Index.lb_fact_repetidas">
+	<summary>
+Control lb_fact_repetidas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Index.lb_noperteneceRFC">
+	<summary>
+Control lb_noperteneceRFC.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Index.lb_factutas_nogua">
+	<summary>
+Control lb_factutas_nogua.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Index.lb_pdf_guar">
+	<summary>
+Control lb_pdf_guar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Index.Button8">
+	<summary>
+Control Button8.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Logeo.Head1">
+	<summary>
+Control Head1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Logeo.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Logeo.ToolkitScriptManager1">
+	<summary>
+Control ToolkitScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Logeo.principal">
+	<summary>
+Control principal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Logeo.Bienve">
+	<summary>
+Control Bienve.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Logeo.Panel1">
+	<summary>
+Control Panel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Logeo.keybox">
+	<summary>
+Control keybox.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Logeo.RequiredFieldValidator16">
+	<summary>
+Control RequiredFieldValidator16.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Logeo.pwbox">
+	<summary>
+Control pwbox.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Logeo.RequiredFieldValidator17">
+	<summary>
+Control RequiredFieldValidator17.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Logeo.btn_inicio">
+	<summary>
+Control btn_inicio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.Head1">
+	<summary>
+Control Head1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.f1">
+	<summary>
+Control f1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.txt_nombre_1">
+	<summary>
+Control txt_nombre_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.Label4">
+	<summary>
+Control Label4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.txt_app_1">
+	<summary>
+Control txt_app_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.Label5">
+	<summary>
+Control Label5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.txt_apm_1">
+	<summary>
+Control txt_apm_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.Label10">
+	<summary>
+Control Label10.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.txt_departamento_1">
+	<summary>
+Control txt_departamento_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.Panel1">
+	<summary>
+Control Panel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.txt_nombre_2">
+	<summary>
+Control txt_nombre_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.Label3">
+	<summary>
+Control Label3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.txt_app_2">
+	<summary>
+Control txt_app_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.Label6">
+	<summary>
+Control Label6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.txt_apm_2">
+	<summary>
+Control txt_apm_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.Label11">
+	<summary>
+Control Label11.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.txt_departamento_2">
+	<summary>
+Control txt_departamento_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.Panel2">
+	<summary>
+Control Panel2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.Label7">
+	<summary>
+Control Label7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.txt_nombre_3">
+	<summary>
+Control txt_nombre_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.Label8">
+	<summary>
+Control Label8.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.txt_app_3">
+	<summary>
+Control txt_app_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.Label9">
+	<summary>
+Control Label9.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.txt_apm_3">
+	<summary>
+Control txt_apm_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.Label12">
+	<summary>
+Control Label12.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.txt_departamento_3">
+	<summary>
+Control txt_departamento_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Firmas.btn_inicio">
+	<summary>
+Control btn_inicio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Head1">
+	<summary>
+Control Head1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.ToolkitScriptManager1">
+	<summary>
+Control ToolkitScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.principal">
+	<summary>
+Control principal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.UpdateProgress1">
+	<summary>
+Control UpdateProgress1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.panel_filtros">
+	<summary>
+Control panel_filtros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Label7">
+	<summary>
+Control Label7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.txtNombreFactura">
+	<summary>
+Control txtNombreFactura.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.tx_buscar_AutoCompleteExtender">
+	<summary>
+Control tx_buscar_AutoCompleteExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.txt_rfc_proveedor">
+	<summary>
+Control txt_rfc_proveedor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.AutoCompleteExtender1">
+	<summary>
+Control AutoCompleteExtender1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.label11">
+	<summary>
+Control label11.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.txt_nombre_proveedor">
+	<summary>
+Control txt_nombre_proveedor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.label8">
+	<summary>
+Control label8.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.txt_folio">
+	<summary>
+Control txt_folio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.AutoCompleteExtender2">
+	<summary>
+Control AutoCompleteExtender2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.label9">
+	<summary>
+Control label9.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.txt_numCertificado">
+	<summary>
+Control txt_numCertificado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.AutoCompleteExtender3">
+	<summary>
+Control AutoCompleteExtender3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.label10">
+	<summary>
+Control label10.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.txt_FechaDe">
+	<summary>
+Control txt_FechaDe.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.txtFechaDel_CalendarExtender">
+	<summary>
+Control txtFechaDel_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.RegularExpressionValidator4">
+	<summary>
+Control RegularExpressionValidator4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.label12">
+	<summary>
+Control label12.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.txt_FechaAl">
+	<summary>
+Control txt_FechaAl.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.CalendarExtender1">
+	<summary>
+Control CalendarExtender1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.panelfil">
+	<summary>
+Control panelfil.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Label4">
+	<summary>
+Control Label4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Radio_por_fecha">
+	<summary>
+Control Radio_por_fecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Radio_por_proveedor">
+	<summary>
+Control Radio_por_proveedor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Radio_por_factura">
+	<summary>
+Control Radio_por_factura.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Radio_por_folio">
+	<summary>
+Control Radio_por_folio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Label5">
+	<summary>
+Control Label5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Radio_top_10">
+	<summary>
+Control Radio_top_10.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Radio_top_20">
+	<summary>
+Control Radio_top_20.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Radio_top_50">
+	<summary>
+Control Radio_top_50.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Radio_top_todos">
+	<summary>
+Control Radio_top_todos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Label21">
+	<summary>
+Control Label21.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Radio_correo">
+	<summary>
+Control Radio_correo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Radio_examninados">
+	<summary>
+Control Radio_examninados.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Radio_e_c">
+	<summary>
+Control Radio_e_c.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Label6">
+	<summary>
+Control Label6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Radio_desc">
+	<summary>
+Control Radio_desc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Radio_asc">
+	<summary>
+Control Radio_asc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Label20">
+	<summary>
+Control Label20.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Radio_Recibido">
+	<summary>
+Control Radio_Recibido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Radio_emitido">
+	<summary>
+Control Radio_emitido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Chec_nomfact">
+	<summary>
+Control Chec_nomfact.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Chec_horas">
+	<summary>
+Control Chec_horas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Chec_cerNum">
+	<summary>
+Control Chec_cerNum.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.btn_buscar">
+	<summary>
+Control btn_buscar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Label18">
+	<summary>
+Control Label18.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Label17">
+	<summary>
+Control Label17.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Grid_facturas">
+	<summary>
+Control Grid_facturas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Grid_facturas2">
+	<summary>
+Control Grid_facturas2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.MPE_confir">
+	<summary>
+Control MPE_confir.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.panel_confir">
+	<summary>
+Control panel_confir.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Label19">
+	<summary>
+Control Label19.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.UpdatePanel5">
+	<summary>
+Control UpdatePanel5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.panel5">
+	<summary>
+Control panel5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.btn_restaurar">
+	<summary>
+Control btn_restaurar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.btn_cerrarConfir">
+	<summary>
+Control btn_cerrarConfir.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Button4">
+	<summary>
+Control Button4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.MPE_confirmar2">
+	<summary>
+Control MPE_confirmar2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.panel1">
+	<summary>
+Control panel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Label13">
+	<summary>
+Control Label13.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.panel2">
+	<summary>
+Control panel2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.ImageButton1">
+	<summary>
+Control ImageButton1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.ImageButton2">
+	<summary>
+Control ImageButton2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.btn_cancelar2">
+	<summary>
+Control btn_cancelar2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.txt_id">
+	<summary>
+Control txt_id.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.txt_idCRT">
+	<summary>
+Control txt_idCRT.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.PagosCancelaciones.Button1">
+	<summary>
+Control Button1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Head1">
+	<summary>
+Control Head1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.ToolkitScriptManager1">
+	<summary>
+Control ToolkitScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.principal">
+	<summary>
+Control principal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.UpdateProgress1">
+	<summary>
+Control UpdateProgress1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.panel_filtros">
+	<summary>
+Control panel_filtros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Label7">
+	<summary>
+Control Label7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.txtNombreFactura">
+	<summary>
+Control txtNombreFactura.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.tx_buscar_AutoCompleteExtender">
+	<summary>
+Control tx_buscar_AutoCompleteExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.txt_rfc_proveedor">
+	<summary>
+Control txt_rfc_proveedor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.AutoCompleteExtender1">
+	<summary>
+Control AutoCompleteExtender1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.label11">
+	<summary>
+Control label11.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.txt_nombre_proveedor">
+	<summary>
+Control txt_nombre_proveedor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.label8">
+	<summary>
+Control label8.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.txt_folio">
+	<summary>
+Control txt_folio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.AutoCompleteExtender2">
+	<summary>
+Control AutoCompleteExtender2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.label9">
+	<summary>
+Control label9.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.txt_numCertificado">
+	<summary>
+Control txt_numCertificado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.AutoCompleteExtender3">
+	<summary>
+Control AutoCompleteExtender3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.label10">
+	<summary>
+Control label10.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.txt_FechaDe">
+	<summary>
+Control txt_FechaDe.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.txtFechaDel_CalendarExtender">
+	<summary>
+Control txtFechaDel_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.RegularExpressionValidator4">
+	<summary>
+Control RegularExpressionValidator4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.label12">
+	<summary>
+Control label12.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.txt_FechaAl">
+	<summary>
+Control txt_FechaAl.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.CalendarExtender1">
+	<summary>
+Control CalendarExtender1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.panelfil">
+	<summary>
+Control panelfil.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Label4">
+	<summary>
+Control Label4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Radio_por_fecha">
+	<summary>
+Control Radio_por_fecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Radio_por_proveedor">
+	<summary>
+Control Radio_por_proveedor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Radio_por_factura">
+	<summary>
+Control Radio_por_factura.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Radio_por_folio">
+	<summary>
+Control Radio_por_folio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Label5">
+	<summary>
+Control Label5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Radio_top_10">
+	<summary>
+Control Radio_top_10.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Radio_top_20">
+	<summary>
+Control Radio_top_20.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Radio_top_50">
+	<summary>
+Control Radio_top_50.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Radio_top_todos">
+	<summary>
+Control Radio_top_todos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Label21">
+	<summary>
+Control Label21.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Radio_correo">
+	<summary>
+Control Radio_correo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Radio_examninados">
+	<summary>
+Control Radio_examninados.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Radio_e_c">
+	<summary>
+Control Radio_e_c.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Label6">
+	<summary>
+Control Label6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Radio_desc">
+	<summary>
+Control Radio_desc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Radio_asc">
+	<summary>
+Control Radio_asc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Label20">
+	<summary>
+Control Label20.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Radio_Recibido">
+	<summary>
+Control Radio_Recibido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Radio_emitido">
+	<summary>
+Control Radio_emitido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_nomfact">
+	<summary>
+Control Chec_nomfact.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_horas">
+	<summary>
+Control Chec_horas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_cerNum">
+	<summary>
+Control Chec_cerNum.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.che_Stodos">
+	<summary>
+Control che_Stodos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.che_oc">
+	<summary>
+Control che_oc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_buscar">
+	<summary>
+Control btn_buscar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Label18">
+	<summary>
+Control Label18.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Label17">
+	<summary>
+Control Label17.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_inicio">
+	<summary>
+Control btn_inicio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_crearreporte">
+	<summary>
+Control btn_crearreporte.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_eliminarFacturas">
+	<summary>
+Control btn_eliminarFacturas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_gnerar_oc">
+	<summary>
+Control btn_gnerar_oc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_cancelarFactura">
+	<summary>
+Control btn_cancelarFactura.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Grid_facturas">
+	<summary>
+Control Grid_facturas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Grid_facturas2">
+	<summary>
+Control Grid_facturas2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.pnl_detalles">
+	<summary>
+Control pnl_detalles.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Grid_Archivos">
+	<summary>
+Control Grid_Archivos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Grid_Archivos2">
+	<summary>
+Control Grid_Archivos2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_cierrate">
+	<summary>
+Control btn_cierrate.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.MPE">
+	<summary>
+Control MPE.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.MPE_conceptos">
+	<summary>
+Control MPE_conceptos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.panel_conceptos">
+	<summary>
+Control panel_conceptos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.tituloCR">
+	<summary>
+Control tituloCR.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.aaa">
+	<summary>
+Control aaa.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Grid_conceptos">
+	<summary>
+Control Grid_conceptos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Grid_Reten">
+	<summary>
+Control Grid_Reten.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Grid_Tras">
+	<summary>
+Control Grid_Tras.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_cierrateconceptos">
+	<summary>
+Control btn_cierrateconceptos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.MPE_subirPDF">
+	<summary>
+Control MPE_subirPDF.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.panel_pdf">
+	<summary>
+Control panel_pdf.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Label13">
+	<summary>
+Control Label13.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Accordion1">
+	<summary>
+Control Accordion1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.pane1">
+	<summary>
+Control pane1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.seleccionar">
+	<summary>
+Control seleccionar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.UpdatePanel2">
+	<summary>
+Control UpdatePanel2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Grid_pdfEnCorreo">
+	<summary>
+Control Grid_pdfEnCorreo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Grid_pdfEnCorreo2">
+	<summary>
+Control Grid_pdfEnCorreo2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.AccordionPane1">
+	<summary>
+Control AccordionPane1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.subir">
+	<summary>
+Control subir.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.AsyncFileUpload1">
+	<summary>
+Control AsyncFileUpload1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_cierraPDF">
+	<summary>
+Control btn_cierraPDF.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.MPEDescargas">
+	<summary>
+Control MPEDescargas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.panel_Descargas">
+	<summary>
+Control panel_Descargas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Label14">
+	<summary>
+Control Label14.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.UpdatePanel3">
+	<summary>
+Control UpdatePanel3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.panelnom">
+	<summary>
+Control panelnom.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.che_nom">
+	<summary>
+Control che_nom.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.che_folio">
+	<summary>
+Control che_folio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.che_Fecha">
+	<summary>
+Control che_Fecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.che_RFC_provee">
+	<summary>
+Control che_RFC_provee.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.che_nom_provee">
+	<summary>
+Control che_nom_provee.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.txt_NombreArchivos2">
+	<summary>
+Control txt_NombreArchivos2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.txt_NombreArchivos">
+	<summary>
+Control txt_NombreArchivos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.ImageButton4">
+	<summary>
+Control ImageButton4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.GridView1">
+	<summary>
+Control GridView1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.panel1">
+	<summary>
+Control panel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.che_xml">
+	<summary>
+Control che_xml.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.che_pdf">
+	<summary>
+Control che_pdf.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.che_carpetas">
+	<summary>
+Control che_carpetas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Label15">
+	<summary>
+Control Label15.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.txt_NombreZip">
+	<summary>
+Control txt_NombreZip.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_cerarZip">
+	<summary>
+Control btn_cerarZip.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_cerrarDescarga">
+	<summary>
+Control btn_cerrarDescarga.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.MPE_reporte">
+	<summary>
+Control MPE_reporte.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.panel_Reporte">
+	<summary>
+Control panel_Reporte.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Label16">
+	<summary>
+Control Label16.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.UpdatePanel4">
+	<summary>
+Control UpdatePanel4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_seleccionarColumnas">
+	<summary>
+Control Chec_seleccionarColumnas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.panel3">
+	<summary>
+Control panel3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_version">
+	<summary>
+Control Chec_version.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_serie">
+	<summary>
+Control Chec_serie.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_folio">
+	<summary>
+Control Chec_folio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_fecha">
+	<summary>
+Control Chec_fecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Check_sello">
+	<summary>
+Control Check_sello.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_formaDePago">
+	<summary>
+Control Chec_formaDePago.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_noCertificado">
+	<summary>
+Control Chec_noCertificado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_Certificado">
+	<summary>
+Control Chec_Certificado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_Condicionespago">
+	<summary>
+Control Chec_Condicionespago.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_Descuento">
+	<summary>
+Control Chec_Descuento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_Motivodescuento">
+	<summary>
+Control Chec_Motivodescuento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_Tipocambio">
+	<summary>
+Control Chec_Tipocambio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_Moneda">
+	<summary>
+Control Chec_Moneda.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_Tipocomprobante">
+	<summary>
+Control Chec_Tipocomprobante.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_Metodopago">
+	<summary>
+Control Chec_Metodopago.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_Lugarexpedicion">
+	<summary>
+Control Chec_Lugarexpedicion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_Nuctapago">
+	<summary>
+Control Chec_Nuctapago.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.chec_proveedor_rfc">
+	<summary>
+Control chec_proveedor_rfc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.chec_proveedor_nombre">
+	<summary>
+Control chec_proveedor_nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.txt_ColumnasSel">
+	<summary>
+Control txt_ColumnasSel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.panel2">
+	<summary>
+Control panel2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_concepto">
+	<summary>
+Control Chec_concepto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_Traslado">
+	<summary>
+Control Chec_Traslado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_Retencio">
+	<summary>
+Control Chec_Retencio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.panel4">
+	<summary>
+Control panel4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_total_indivi">
+	<summary>
+Control Chec_total_indivi.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Chec_total_total">
+	<summary>
+Control Chec_total_total.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_repoeteexel">
+	<summary>
+Control btn_repoeteexel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_cerrarReporte">
+	<summary>
+Control btn_cerrarReporte.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.MPE_confir">
+	<summary>
+Control MPE_confir.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.panel_confir">
+	<summary>
+Control panel_confir.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Label19">
+	<summary>
+Control Label19.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.UpdatePanel5">
+	<summary>
+Control UpdatePanel5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.panel5">
+	<summary>
+Control panel5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_eliminarFacturas2">
+	<summary>
+Control btn_eliminarFacturas2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_cerrarConfir">
+	<summary>
+Control btn_cerrarConfir.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Button4">
+	<summary>
+Control Button4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.MPE_cancelar_oc">
+	<summary>
+Control MPE_cancelar_oc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.panel_cancelar_oc">
+	<summary>
+Control panel_cancelar_oc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Label23">
+	<summary>
+Control Label23.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.UpdatePanel7">
+	<summary>
+Control UpdatePanel7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.panel8">
+	<summary>
+Control panel8.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_oc_cancelar">
+	<summary>
+Control btn_oc_cancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_oc_salir">
+	<summary>
+Control btn_oc_salir.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_salir_cancelaroc">
+	<summary>
+Control btn_salir_cancelaroc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.MPE_OC">
+	<summary>
+Control MPE_OC.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.panel_oc">
+	<summary>
+Control panel_oc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Label22">
+	<summary>
+Control Label22.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.UpdatePanel6">
+	<summary>
+Control UpdatePanel6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.panel7">
+	<summary>
+Control panel7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.oc_selecc">
+	<summary>
+Control oc_selecc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_acep_oc">
+	<summary>
+Control btn_acep_oc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_cancel_oc">
+	<summary>
+Control btn_cancel_oc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.btn_cerrar_oc">
+	<summary>
+Control btn_cerrar_oc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.txt_idCRT">
+	<summary>
+Control txt_idCRT.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Facturas.Button1">
+	<summary>
+Control Button1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.AceptarOC.Head1">
+	<summary>
+Control Head1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.AceptarOC.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.AceptarOC.ToolkitScriptManager1">
+	<summary>
+Control ToolkitScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.AceptarOC.UpdatePanel6">
+	<summary>
+Control UpdatePanel6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.AceptarOC.panel7">
+	<summary>
+Control panel7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.AceptarOC.oc_selecc">
+	<summary>
+Control oc_selecc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.AceptarOC.txt_fecha_oc">
+	<summary>
+Control txt_fecha_oc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.AceptarOC.CalendarExtender2">
+	<summary>
+Control CalendarExtender2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.AceptarOC.txt_fecha_pago">
+	<summary>
+Control txt_fecha_pago.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.AceptarOC.CalendarExtender1">
+	<summary>
+Control CalendarExtender1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.AceptarOC.txt_Observaciones">
+	<summary>
+Control txt_Observaciones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.AceptarOC.txt_Representante">
+	<summary>
+Control txt_Representante.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.AceptarOC.txt_Depto">
+	<summary>
+Control txt_Depto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Head1">
+	<summary>
+Control Head1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.ToolkitScriptManager1">
+	<summary>
+Control ToolkitScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.principal">
+	<summary>
+Control principal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.UpdateProgress1">
+	<summary>
+Control UpdateProgress1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Accordion1">
+	<summary>
+Control Accordion1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.pane1">
+	<summary>
+Control pane1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Panel3">
+	<summary>
+Control Panel3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Label15">
+	<summary>
+Control Label15.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.txt_Cuenta">
+	<summary>
+Control txt_Cuenta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.RequiredFieldValidator3">
+	<summary>
+Control RequiredFieldValidator3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.txt_RazonSocial">
+	<summary>
+Control txt_RazonSocial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.RequiredFieldValidator1">
+	<summary>
+Control RequiredFieldValidator1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Label11">
+	<summary>
+Control Label11.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.txt_RFC">
+	<summary>
+Control txt_RFC.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.RegularExpressionValidator3">
+	<summary>
+Control RegularExpressionValidator3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.RequiredFieldValidator2">
+	<summary>
+Control RequiredFieldValidator2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Label12">
+	<summary>
+Control Label12.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.txt_CURP">
+	<summary>
+Control txt_CURP.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.RegularExpressionValidator2">
+	<summary>
+Control RegularExpressionValidator2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.btn_cuenta">
+	<summary>
+Control btn_cuenta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.pane2">
+	<summary>
+Control pane2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Panel1">
+	<summary>
+Control Panel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.txt_Correo">
+	<summary>
+Control txt_Correo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.RegularExpressionValidator1">
+	<summary>
+Control RegularExpressionValidator1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.RequiredFieldValidator5">
+	<summary>
+Control RequiredFieldValidator5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Label9">
+	<summary>
+Control Label9.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.txt_contrasenia">
+	<summary>
+Control txt_contrasenia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.RequiredFieldValidator10">
+	<summary>
+Control RequiredFieldValidator10.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Label3">
+	<summary>
+Control Label3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.txt_Tipo">
+	<summary>
+Control txt_Tipo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.RequiredFieldValidator6">
+	<summary>
+Control RequiredFieldValidator6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Label4">
+	<summary>
+Control Label4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.txt_Servidor">
+	<summary>
+Control txt_Servidor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.RequiredFieldValidator7">
+	<summary>
+Control RequiredFieldValidator7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Label8">
+	<summary>
+Control Label8.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.txt_Puerto">
+	<summary>
+Control txt_Puerto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.RequiredFieldValidator9">
+	<summary>
+Control RequiredFieldValidator9.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.CompareValidator1">
+	<summary>
+Control CompareValidator1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Label17">
+	<summary>
+Control Label17.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Radio_ssl_si">
+	<summary>
+Control Radio_ssl_si.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Radio_ssl_no">
+	<summary>
+Control Radio_ssl_no.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.btn_correo">
+	<summary>
+Control btn_correo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.btn_correo_modificar">
+	<summary>
+Control btn_correo_modificar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.btn_limpiar_correo">
+	<summary>
+Control btn_limpiar_correo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Grid_correos">
+	<summary>
+Control Grid_correos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.grid_correos2">
+	<summary>
+Control grid_correos2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.pane3">
+	<summary>
+Control pane3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Panel2">
+	<summary>
+Control Panel2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.cuentaModi">
+	<summary>
+Control cuentaModi.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Label6">
+	<summary>
+Control Label6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.txt_Usuario">
+	<summary>
+Control txt_Usuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.RequiredFieldValidator11">
+	<summary>
+Control RequiredFieldValidator11.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Label7">
+	<summary>
+Control Label7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.txt_Contrasena">
+	<summary>
+Control txt_Contrasena.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.RequiredFieldValidator12">
+	<summary>
+Control RequiredFieldValidator12.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Label10">
+	<summary>
+Control Label10.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.txt_nombre">
+	<summary>
+Control txt_nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.RequiredFieldValidator13">
+	<summary>
+Control RequiredFieldValidator13.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Label13">
+	<summary>
+Control Label13.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.txt_app">
+	<summary>
+Control txt_app.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.RequiredFieldValidator14">
+	<summary>
+Control RequiredFieldValidator14.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.txt_label">
+	<summary>
+Control txt_label.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.txt_apma">
+	<summary>
+Control txt_apma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.RequiredFieldValidator15">
+	<summary>
+Control RequiredFieldValidator15.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.btn_usuario">
+	<summary>
+Control btn_usuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.btn_usuario_modificar">
+	<summary>
+Control btn_usuario_modificar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.btn_limpiar_usuario">
+	<summary>
+Control btn_limpiar_usuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Grid_Usuarios">
+	<summary>
+Control Grid_Usuarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Grid_Usuarios2">
+	<summary>
+Control Grid_Usuarios2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Label14">
+	<summary>
+Control Label14.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.txt_id_correo">
+	<summary>
+Control txt_id_correo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Label16">
+	<summary>
+Control Label16.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.txt_id_Usuario">
+	<summary>
+Control txt_id_Usuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Label5">
+	<summary>
+Control Label5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.txt_Host">
+	<summary>
+Control txt_Host.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.MPE_confir">
+	<summary>
+Control MPE_confir.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.panel_confir2">
+	<summary>
+Control panel_confir2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Label18">
+	<summary>
+Control Label18.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.panel4">
+	<summary>
+Control panel4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.btn_eliminarFacturas2">
+	<summary>
+Control btn_eliminarFacturas2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.btn_cerrarConfir">
+	<summary>
+Control btn_cerrarConfir.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Button1">
+	<summary>
+Control Button1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.MPE_confir_correo">
+	<summary>
+Control MPE_confir_correo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.panel5">
+	<summary>
+Control panel5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Label19">
+	<summary>
+Control Label19.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.UpdatePanel2">
+	<summary>
+Control UpdatePanel2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.panel6">
+	<summary>
+Control panel6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.ImageButton1">
+	<summary>
+Control ImageButton1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.ImageButton2">
+	<summary>
+Control ImageButton2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ClodFacturas_V2.Cuentas.Button2">
+	<summary>
+Control Button2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>

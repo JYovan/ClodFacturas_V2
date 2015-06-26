@@ -1,0 +1,560 @@
+﻿.ventana
+{
+     text-align:left;
+   max-Width:95%;
+   min-width:50%;
+
+   min-height:200px;
+   max-height:500px;
+
+}
+
+@font-face
+{
+ font-family: "WeblySleek UI Semilight";
+ src: url("../fonts/weblysleekuisl.ttf");
+}
+
+.titulo 
+{
+    
+    position: absolute; 
+    text-align: center;
+    vertical-align:central;
+    
+}
+
+
+.contenido
+{
+     font-family: "WeblySleek UI Semilight" !important; 
+
+}
+
+
+
+.page-title
+{
+   
+    font-size: 2em;
+    text-align: center;
+    color:white;
+}
+
+.close-button2
+{
+    top: .10em;
+    right: .0em;
+    
+}
+.btn_cierrate
+{
+    width:30px;
+    height:35px;
+    text-decoration:none;
+    background-color:white;
+    color:black;
+    border-bottom:none;
+    border-color:none;
+    border-style:none;
+    font:70px;
+     
+     position: absolute;
+    top: .10em;
+    right: .60em;
+    cursor: pointer;
+    line-height: .6em;
+    text-align: center;
+    vertical-align:central;
+    color:red;
+    font-size: .8em;
+
+
+
+  
+    width: 2.1em;
+    height: 2.1em;
+    position: absolute;
+    top: -0.4em;
+    right: -0.4em;
+   
+    border-radius:1.2em;
+   
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=30);
+	opacity:0.1;
+	
+}
+
+
+.loadingAnimation
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 3;
+}
+
+.loadingAnimation img
+{
+    border-radius: 5px;
+    opacity: 0.7;
+    left:45%;
+    top:20%;
+    position: absolute;
+  
+}
+.botonGrid
+{
+    /*margin-left:30%;*/
+    float:none;
+ 
+    cursor:pointer;   
+}
+.botonGrid2
+{
+
+ 
+    cursor:pointer;   
+}
+
+.form-control{
+   border-radius: 5px;
+   border: 1px solid #000000;
+   
+   outline: 0;
+   Font-Size:12pt;
+    Width:90%;
+
+}
+
+.accordionHeader {
+    
+    color: white;
+    background-color: #81BEF7;
+
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+  
+}
+ 
+#master_content .accordionHeader a
+{
+    color: #FFFFFF;
+    background: none;
+    text-decoration: none;
+}
+ 
+#master_content .accordionHeader a:hover
+{
+        background: none;
+        text-decoration: underline;
+}
+ 
+.accordionHeaderSelected {
+ 
+    color: white;
+    background-color: #0080FF;   
+ 
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+
+::-webkit-scrollbar {  
+    width: 12px;  
+}  
+::-webkit-scrollbar-track {  
+    background-color: white;  
+   
+}  
+::-webkit-scrollbar-thumb {  
+    background-color: #ccc;  
+}  
+::-webkit-scrollbar-thumb:hover {  
+    background-color: #aaa;  
+}
+
+
+.panel
+{
+    width:80%;
+    text-align:right;
+    margin-left:50px;
+    margin-top:30px;
+
+}
+
+.gridviewmediaforms
+{
+	 width:100%;
+	background-color:#ffffff;
+	border: 1px solid #666666;	
+		font-size:11PX;
+	color:Black;
+	 padding: 3px 3px 3px 3px;
+	 border-spacing: 1px;
+	 padding:3px 3px 3px 3px; 
+	 border-style:solid;	
+
+		 
+	}
+
+.gridviewmedia
+{	 
+	background-color:#81BEF7;
+	border: 1px solid #403152;	
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:small;		
+	color:White;
+	 padding: 3px 3px 3px 3px;
+	 border-spacing: 1px;
+	 padding:3px 3px 3px 3px; 	  
+	 
+	}
+.bubble
+{
+    background: #FFC3D1;
+    border-radius: 3px;
+    color: #000000;
+    position: absolute;
+    border: 1px solid #DA1A21;
+ 
+    padding: 2px;
+}
+
+.bubble:after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    bottom: auto;
+    left: -10px;
+    top: 7px;
+    border-color: transparent #DA1A21;
+    border-style: solid;
+    border-width: 5px 10px 5px 0;
+}
+
+.botonExa
+{
+    background-color:green;
+    color:white;
+   height:55px;
+   width:55px;
+    border:none;
+    border-bottom:none;
+    background: url(../images/save2.png);
+    cursor:pointer;
+}
+
+.boton
+{
+    Height :55px;
+    Width:55px; 
+    background-color:green;
+    margin:5px;  
+}
+
+
+
+
+
+.boton:hover, .boton:focus, .boton:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+
+.page-content
+{
+    overflow-y: auto;
+    max-height: 100%;
+    font-size: .6em;
+   
+    text-align: left;
+}
+
+
+.demo-wrapper {
+	width: 100%;
+	margin: 0 auto;
+    border:none;
+}
+
+
+
+/*iframe*/
+
+
+
+.demo-iframe {
+	background-color: #fff;
+	padding: 10px 25px;
+    border:none;
+}
+.demo-wrapper {
+	width: 100%;
+	margin: 0 auto;
+    border:none;
+}
+.demo-wrapper iframe {
+	border: 1px solid #ccc;
+	width: 100%;
+	background-color: #fff;
+	/*height: 90%;*/
+    min-height:100px;
+    border:none;
+}
+.demo-wrapper iframe::-webkit-scrollbar {
+    width: 12px;
+}
+.demo-wrapper iframe::-webkit-scrollbar-track {
+    background-color: white;
+  border:none;
+}
+.demo-wrapper iframe::-webkit-scrollbar-thumb {
+    border:none;
+    background-color: #ccc;
+}
+.demo-wrapper iframe::-webkit-scrollbar-thumb:hover {
+	background-color: #aaa;
+    border:none;
+}
+
+
+
+
+.tooltipDemo {  
+    position: relative;  
+    display: inline;  
+    text-decoration: none;  
+    left: 5px;  
+    top: 0px;  
+}  
+  
+    .tooltipDemo:hover:before {  
+        border: solid;  
+        border-color: transparent #3EC7F3;  
+        border-width: 6px 6px 6px 0px;  
+        bottom: 21px;  
+        content: "";  
+        left: 60px;    
+        bottom:50px;
+        position: absolute;  
+        
+    }  
+  
+    .tooltipDemo:hover:after {  
+         
+        background: #3EC7F3;  
+        border-radius: 5px;  
+        color: #fff;  
+        content: attr(alt);  
+        position: absolute;  
+        padding: 5px 15px;  
+        z-index: 95;  
+    }
+
+
+.abajo
+{
+    top:15px;
+
+}
+
+
+
+/*.page-title
+{
+   
+    font-size: 2em;
+    text-align: center;
+    color:white;
+}*/
+
+.close-button2
+{
+    top: .10em;
+    right: .0em;
+    
+}
+
+
+
+
+
+.botonGrid
+{
+    /*margin-left:30%;*/
+    float:none;
+ 
+    cursor:pointer;   
+}
+.botonGrid2
+{
+
+ 
+    cursor:pointer;   
+}
+
+
+
+
+
+
+/*::-webkit-scrollbar {  
+    width: 12px;  
+}  
+::-webkit-scrollbar-track {  
+    background-color: white;  
+   
+}  
+::-webkit-scrollbar-thumb {  
+    background-color: #ccc;  
+}  
+::-webkit-scrollbar-thumb:hover {  
+    background-color: #aaa;  
+}*/
+
+
+/*.panel
+{
+    width:80%;
+    text-align:right;
+    margin-left:50px;
+    margin-top:30px;
+
+}*/
+
+
+
+
+/*.botonExa
+{
+    background-color:green;
+    color:white;
+   height:55px;
+   width:55px;
+    border:none;
+    border-bottom:none;
+    background: url(../images/save2.png);
+    cursor:pointer;
+}*/
+
+.abajo
+{
+    top:15px;
+
+}
+.auto
+{
+     /*position: relative;*/  
+
+     /*margin:-0.3em;*/
+
+     list-style:none;
+     border:solid;
+     float:left;
+     width:50px;
+}
+
+
+.completionList {
+        border:solid 1px Gray;
+        margin:0px;
+        padding:3px;
+        min-height: 50px;
+        max-height:120px;
+        overflow:auto;
+        background-color: #FFFFFF;     
+        } 
+        .listItem {
+        color: #191919;
+        } 
+        .itemHighlighted {
+        background-color: #ADD6FF;       
+        }
+
+
+
+.fileUpload {
+	 
+
+
+
+}
+
+
+
+
+
+@media (max-width:600px)
+
+
+{
+    .fileUpload
+    {
+        font-size: 12px;
+    }
+
+
+    .panel
+{
+    width:90%;
+
+    margin-left:25px;
+ 
+
+}
+
+}
+@media (max-width:500px)
+
+
+{
+    .fileUpload
+    {
+        font-size: 10px;
+    }
+
+
+    .panel
+{
+    width:95%;
+
+    margin-left:10px;
+ 
+
+}
+
+}
+
+
+.element {
+    font-family: "WeblySleek UI Semilight" !important;
+    background: none repeat scroll 0 0 #00B7CD;
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;   
+    font-size: 15px;
+    padding: 3px 15px;
+}

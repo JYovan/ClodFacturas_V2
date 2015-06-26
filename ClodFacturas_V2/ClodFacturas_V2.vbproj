@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{1B75F1FF-9F62-409F-946E-57B9F47D3230}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ClodFacturas_V2</RootNamespace>
+    <AssemblyName>ClodFacturas_V2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ClodFacturas_V2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ClodFacturas_V2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=15.1.1.100, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\AppData\Local\Microsoft\VisualStudio\11.0\Extensions\xyusjhyf.v3o\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="EPPlus, Version=3.1.2.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.GNU.Classpath, Version=0.30.0.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\IKVM.GNU.Classpath.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenPop, Version=2.0.0.288, Culture=neutral, PublicKeyToken=bebb5741791313cd, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\OpenPop.dll</HintPath>
+    </Reference>
+    <Reference Include="PDFBox-0.7.3, Version=0.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\PDFBox-0.7.3.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpCompress, Version=0.10.3.0, Culture=neutral, PublicKeyToken=beaf6f427e128133, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\SharpCompress.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AceptarOC.aspx" />
+    <Content Include="Administracion.aspx" />
+    <Content Include="Correos.aspx" />
+    <Content Include="css\component.css" />
+    <Content Include="css\default.css" />
+    <Content Include="css\EstilosAdministracion.css" />
+    <Content Include="css\EstilosCuentas.css" />
+    <Content Include="css\EstilosExaminar.css" />
+    <Content Include="css\Estilos.css" />
+    <Content Include="css\EstilosCorreos.css" />
+    <Content Include="css\EstilosCorreosV2.css" />
+    <Content Include="css\EstilosFacturas.css" />
+    <Content Include="css\estilosFirmas.css" />
+    <Content Include="css\EstilosIndex.css" />
+    <Content Include="css\estilosOC.css" />
+    <Content Include="css\iframe.css" />
+    <Content Include="css\Mensajes.css" />
+    <Content Include="Cuentas.aspx" />
+    <Content Include="Descarga_sat.aspx" />
+    <Content Include="dll\EPPlus.dll" />
+    <Content Include="dll\Gma.QrCodeNet.Encoding.dll" />
+    <Content Include="dll\IKVM.GNU.Classpath.dll" />
+    <Content Include="dll\Ionic.Zip.dll" />
+    <Content Include="dll\OpenPop.dll" />
+    <Content Include="dll\PDFBox-0.7.3.dll" />
+    <Content Include="dll\SharpCompress.dll" />
+    <Content Include="Examinar.aspx" />
+    <Content Include="Facturas.aspx" />
+    <Content Include="Firmas.aspx" />
+    <Content Include="images\animated-overlay.gif" />
+    <Content Include="images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="images\ui-icons_222222_256x240.png" />
+    <Content Include="images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="images\ui-icons_454545_256x240.png" />
+    <Content Include="images\ui-icons_888888_256x240.png" />
+    <Content Include="images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="img\2.jpg" />
+    <Content Include="img\Actualizar.png" />
+    <Content Include="img\admin.png" />
+    <Content Include="img\admin2.png" />
+    <Content Include="img\admin3.png" />
+    <Content Include="img\admin4.png" />
+    <Content Include="img\android-icon-48x48.png" />
+    <Content Include="img\bajar.png" />
+    <Content Include="img\CloudFacturas.png" />
+    <Content Include="img\delete.png" />
+    <Content Include="img\dow.png" />
+    <Content Include="img\edit.png" />
+    <Content Include="img\eliminar.png" />
+    <Content Include="img\email.png" />
+    <Content Include="img\exit.PNG" />
+    <Content Include="img\factura2.png" />
+    <Content Include="img\factura3.png" />
+    <Content Include="img\favicon.png" />
+    <Content Include="img\file.png" />
+    <Content Include="img\file2.png" />
+    <Content Include="img\firma.png" />
+    <Content Include="img\firma2.png" />
+    <Content Include="img\Guardar.png" />
+    <Content Include="img\limpiar.png" />
+    <Content Include="img\loader2.gif" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\mail.png" />
+    <Content Include="img\mailB.png" />
+    <Content Include="img\manual.png" />
+    <Content Include="img\modificar.png" />
+    <Content Include="img\oc.png" />
+    <Content Include="img\off.png" />
+    <Content Include="img\open.png" />
+    <Content Include="img\pagCan.png" />
+    <Content Include="img\pdf.png" />
+    <Content Include="img\reporte.png" />
+    <Content Include="img\row.png" />
+    <Content Include="img\row2.png" />
+    <Content Include="img\save.png" />
+    <Content Include="img\save2.png" />
+    <Content Include="img\savezip.png" />
+    <Content Include="img\spinner.gif" />
+    <Content Include="img\user-login.png" />
+    <Content Include="img\user.png" />
+    <Content Include="img\x.png" />
+    <Content Include="img\xml.png" />
+    <Content Include="img\xml2.png" />
+    <Content Include="img\xml_favi.png" />
+    <Content Include="img\zip.png" />
+    <Content Include="Index.aspx" />
+    <Content Include="js\classie.js" />
+    <Content Include="js\css-filters-polyfill.js" />
+    <Content Include="js\cssParser.js" />
+    <Content Include="js\download.js" />
+    <Content Include="js\jquery.Mensajes_minimized.js" />
+    <Content Include="js\Mensajes.min.js" />
+    <Content Include="js\modalEffects.js" />
+    <Content Include="js\modernizr.custom.js" />
+    <Content Include="Logeo.aspx" />
+    <Content Include="OrdenesdeCompra.aspx" />
+    <Content Include="PagosCancelaciones.aspx" />
+    <Content Include="qr.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AceptarOC.aspx.designer.vb">
+      <DependentUpon>AceptarOC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AceptarOC.aspx.vb">
+      <DependentUpon>AceptarOC.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Administracion.aspx.designer.vb">
+      <DependentUpon>Administracion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion.aspx.vb">
+      <DependentUpon>Administracion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Correos.aspx.designer.vb">
+      <DependentUpon>Correos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Correos.aspx.vb">
+      <DependentUpon>Correos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cuentas.aspx.designer.vb">
+      <DependentUpon>Cuentas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cuentas.aspx.vb">
+      <DependentUpon>Cuentas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Descarga_sat.aspx.designer.vb">
+      <DependentUpon>Descarga_sat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Descarga_sat.aspx.vb">
+      <DependentUpon>Descarga_sat.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ds_Factura.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_Factura.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_OC.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_OC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_qr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_qr.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Email.vb" />
+    <Compile Include="Examinar.aspx.designer.vb">
+      <DependentUpon>Examinar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Examinar.aspx.vb">
+      <DependentUpon>Examinar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Facturas.aspx.designer.vb">
+      <DependentUpon>Facturas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturas.aspx.vb">
+      <DependentUpon>Facturas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Firmas.aspx.designer.vb">
+      <DependentUpon>Firmas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Firmas.aspx.vb">
+      <DependentUpon>Firmas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Logeo.aspx.designer.vb">
+      <DependentUpon>Logeo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logeo.aspx.vb">
+      <DependentUpon>Logeo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="OrdenesdeCompra.aspx.designer.vb">
+      <DependentUpon>OrdenesdeCompra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrdenesdeCompra.aspx.vb">
+      <DependentUpon>OrdenesdeCompra.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PagosCancelaciones.aspx.designer.vb">
+      <DependentUpon>PagosCancelaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagosCancelaciones.aspx.vb">
+      <DependentUpon>PagosCancelaciones.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="qr.aspx.designer.vb">
+      <DependentUpon>qr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qr.aspx.vb">
+      <DependentUpon>qr.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="qr_rpt.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>qr_rpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rpt_Factura.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_Factura.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rpt_OC.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_OC.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tools\DbToolsT.vb" />
+    <Compile Include="Tools\messageTools.vb" />
+    <Compile Include="Tools\MySecurity.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="qr_rpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>qr_rpt.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpt_Factura.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_Factura.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpt_OC.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_OC.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\weblysleekuisl.ttf" />
+    <Content Include="ds_OC.xsc">
+      <DependentUpon>ds_OC.xsd</DependentUpon>
+    </Content>
+    <Content Include="ds_Factura.xsc">
+      <DependentUpon>ds_Factura.xsd</DependentUpon>
+    </Content>
+    <None Include="ds_Factura.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_Factura.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="ds_Factura.xss">
+      <DependentUpon>ds_Factura.xsd</DependentUpon>
+    </Content>
+    <None Include="ds_OC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_OC.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="ds_OC.xss">
+      <DependentUpon>ds_OC.xsd</DependentUpon>
+    </Content>
+    <Content Include="Manual.pdf" />
+    <Content Include="Manual2.pdf" />
+    <Content Include="ds_qr.xsc">
+      <DependentUpon>ds_qr.xsd</DependentUpon>
+    </Content>
+    <None Include="ds_qr.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_qr.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="ds_qr.xss">
+      <DependentUpon>ds_qr.xsd</DependentUpon>
+    </Content>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\Facturas_v2.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="packages.config" />
+    <Content Include="Reporte.xlsx" />
+    <Content Include="Ordene de Compra.pdf" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Archivos\" />
+    <Folder Include="Zip\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="SHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1696</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:3340/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
